@@ -84,7 +84,9 @@ nav a {
     margin-bottom: 20px;
 }
 /*main Section style*/
-
+main{
+    min-width: 1140px;
+}
 
 /*About Section style*/
 .about{
