@@ -85,8 +85,9 @@ nav a {
 }
 /*main Section style*/
 main{
-    min-width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+
 }
 
 /*About Section style*/
@@ -95,5 +96,9 @@ main{
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
-    max-width: a;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
